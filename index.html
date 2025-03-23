@@ -18,6 +18,9 @@
     <hr width="100%">
     <h1 align="center">HTML, CSS, JAVASCRIPT</h1>
     <strong>Pratham</strong>
+    <a href="https://www.google.com" target="_blank" title="go to g" download>Google</a>
+    <a href="/asdf.html">asdf</a>
+
     <br>
     <tt>typewriter text</tt>
     <h2 style="color:blue; background:aliceblue">Subjects</h2>
@@ -56,7 +59,6 @@
     <br />
     <img src="asdf.png" alt="bmw" id="49" height="100" width="200" style="display: block; margin: 0 auto;">
     <div id="box">
-    <a href="https://www.google.com" target="_blank">Google</a>
     <br>
     <code>print("hello")</code>
     <script>
@@ -67,10 +69,24 @@
     <hr>
     <div>
         <form action="index.html" method="get">
-            <input type="text" name="name" placeholder="Enter your name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
             <input type="email" name="email" placeholder="Enter your email">
-            <input type="password" name="password" placeholder="Enter your password">
+            <input type="password" name="password" placeholder=Enter your password>
             <input type="submit" value="Submit">
+            <label for="message">Message:</label>
+            <label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone" placeholder="+1234567890">
+<label for="website">Website:</label>
+<input type="url" id="website" name="website" placeholder="https://example.com">
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+
+<textarea id="message" name="message" rows="4" cols="30" placeholder="Enter your message"></textarea>
+<label for="subscribe">
+    <input type="checkbox" id="subscribe" name="newsletter" value="yes">
+    Subscribe to our newsletter
+  </label>
         </form>
     </div>
 </body>
